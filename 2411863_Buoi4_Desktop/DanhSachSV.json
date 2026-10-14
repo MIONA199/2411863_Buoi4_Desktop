@@ -1,0 +1,63 @@
+[
+    {
+      "MSSV": "SV001",
+      "HoTenLot": "Nguyễn Văn",
+      "Ten": "A",
+      "NgaySinh": "2003-10-15T00:00:00",
+      "Lop": "CTK31",
+      "CMND": "123456789",
+      "SoDT": "0901234567",
+      "DiaChiLienLac": "Đà Lạt",
+      "GioiTinh": true,
+      "MonHocDangKy": [
+        "Mạng máy tính",
+        "Hệ điều hành"
+      ]
+    },
+    {
+      "MSSV": "SV002",
+      "HoTenLot": "Trần Thị",
+      "Ten": "B",
+      "NgaySinh": "2002-05-20T00:00:00",
+      "Lop": "CTK32",
+      "CMND": "987654321",
+      "SoDT": "0912345678",
+      "DiaChiLienLac": "Hà Nội",
+      "GioiTinh": false,
+      "MonHocDangKy": [
+        "Lập trình CSDL",
+        "Lập trình mạng"
+      ]
+    },
+    {
+      "MSSV": "SV003",
+      "HoTenLot": "Lê Văn",
+      "Ten": "C",
+      "NgaySinh": "2003-08-25T00:00:00",
+      "Lop": "CTK33",
+      "CMND": "345678901",
+      "SoDT": "0923456789",
+      "DiaChiLienLac": "Gia Lai",
+      "GioiTinh": true,
+      "MonHocDangKy": [
+        "Trí tuệ nhân tạo",
+        "Khoa học máy tính"
+      ]
+    },
+    {
+      "MSSV": "SV004",
+      "HoTenLot": "Rien Na",
+      "Ten": "Erina",
+      "NgaySinh": "2026-09-24T14:33:48.0584113+07:00",
+      "Lop": "CTK34",
+      "CMND": "24652887",
+      "SoDT": "0931342432",
+      "DiaChiLienLac": "Hinoa",
+      "GioiTinh": false,
+      "MonHocDangKy": [
+        "Lập trình mạng",
+        "An toàn và bảo mật hệ thống"
+      ]
+    }
+  ]
+

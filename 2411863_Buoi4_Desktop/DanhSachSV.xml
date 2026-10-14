@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<DanhSachSinhVien>
+	<SinhVien>
+		<MSSV>SV001</MSSV>
+		<HoTenLot>Nguyễn Văn</HoTenLot>
+		<Ten>A</Ten>
+		<NgaySinh>15/10/2003</NgaySinh>
+		<Lop>CTK31</Lop>
+		<CMND>123456789</CMND>
+		<SoDT>0901234567</SoDT>
+		<DiaChiLienLac>Đà Lạt</DiaChiLienLac>
+		<GioiTinh>1</GioiTinh>
+		<MonHocDangKy>
+			<Mon>Mạng máy tính</Mon>
+			<Mon>Hệ điều hành</Mon>
+		</MonHocDangKy>
+	</SinhVien>
+	<SinhVien>
+		<MSSV>SV002</MSSV>
+		<HoTenLot>Trần Thị</HoTenLot>
+		<Ten>B</Ten>
+		<NgaySinh>20/05/2002</NgaySinh>
+		<Lop>CTK32</Lop>
+		<CMND>987654321</CMND>
+		<SoDT>0912345678</SoDT>
+		<DiaChiLienLac>Hà Nội</DiaChiLienLac>
+		<GioiTinh>0</GioiTinh>
+		<MonHocDangKy>
+			<Mon>Lập trình CSDL</Mon>
+			<Mon>Lập trình mạng</Mon>
+		</MonHocDangKy>
+	</SinhVien>
+	<SinhVien>
+		<MSSV>SV003</MSSV>
+		<HoTenLot>Lê Văn</HoTenLot>
+		<Ten>C</Ten>
+		<NgaySinh>25/08/2003</NgaySinh>
+		<Lop>CTK33</Lop>
+		<CMND>345678901</CMND>
+		<SoDT>0923456789</SoDT>
+		<DiaChiLienLac>Gia Lai</DiaChiLienLac>
+		<GioiTinh>1</GioiTinh>
+		<MonHocDangKy>
+			<Mon>Trí tuệ nhân tạo</Mon>
+			<Mon>Khoa học máy tính</Mon>
+		</MonHocDangKy>
+	</SinhVien>
+	<SinhVien>
+		<MSSV>SV004</MSSV>
+		<HoTenLot>Rien Na</HoTenLot>
+		<Ten>Erina</Ten>
+		<NgaySinh>24/09/2026</NgaySinh>
+		<Lop>CTK34</Lop>
+		<CMND>24652887</CMND>
+		<SoDT>0931342432</SoDT>
+		<DiaChiLienLac>Hinoa</DiaChiLienLac>
+		<GioiTinh>0</GioiTinh>
+		<MonHocDangKy>
+			<Mon>Lập trình mạng</Mon>
+			<Mon>An toàn và bảo mật hệ thống</Mon>
+		</MonHocDangKy>
+	</SinhVien>
+</DanhSachSinhVien>

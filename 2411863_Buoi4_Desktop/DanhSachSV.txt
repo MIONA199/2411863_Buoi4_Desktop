@@ -1,0 +1,4 @@
+﻿SV001	Nguyễn Văn	A	10/15/2003	CTK31	123456789	0901234567	Đà Lạt	1	Mạng máy tính, Hệ điều hành
+SV002	Trần Thị	B	05/20/2002	CTK32	987654321	0912345678	Hà Nội	0	Lập trình CSDL, Lập trình mạng
+SV003	Lê Văn	C	08/25/2003	CTK33	345678901	0923456789	Gia Lai	1	Trí tuệ nhân tạo, Khoa học máy tính
+SV004	Rien Na	Erina	09/24/2026	CTK34	24652887	0931342432	Hinoa	0	Lập trình mạng, An toàn và bảo mật hệ thống
