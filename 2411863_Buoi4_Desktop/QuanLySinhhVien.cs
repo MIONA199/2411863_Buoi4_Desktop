@@ -123,7 +123,6 @@ namespace _2411863_Buoi4_Desktop
                 string json = File.ReadAllText(filename, Encoding.UTF8);
                 dsSinhVien.Clear();
 
-                // Thử đọc dạng wrapper { "students": [...] }
                 try
                 {
                     var wrapper = JsonConvert.DeserializeObject<QuanLySinhVienWrapper>(json);
@@ -136,7 +135,6 @@ namespace _2411863_Buoi4_Desktop
                 }
                 catch { }
 
-                // Thử đọc dạng mảng thuần [ {...}, {...} ]
                 var ds = JsonConvert.DeserializeObject<List<ClassSinhVien>>(json);
                 if (ds != null)
                     foreach (ClassSinhVien sv in ds)
@@ -150,7 +148,6 @@ namespace _2411863_Buoi4_Desktop
 
         public void GhiJSON(string filename)
         {
-            // Ghi dạng mảng thuần (dễ đọc lại hơn)
             string json = JsonConvert.SerializeObject(dsSinhVien, Formatting.Indented);
             File.WriteAllText(filename, json, Encoding.UTF8);
         }
