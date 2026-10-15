@@ -23,7 +23,6 @@ namespace _2411863_Buoi4_Desktop
             ResetControls();
         }
 
-        // Reset các control
         private void ResetControls()
         {
             txtMSSV.Clear();
@@ -39,7 +38,6 @@ namespace _2411863_Buoi4_Desktop
                 clbMonHoc.SetItemChecked(i, false);
         }
 
-        // Lấy sinh viên từ controls
         private ClassSinhVien GetSinhVienFromControls()
         {
             ClassSinhVien sv = new ClassSinhVien();
@@ -60,7 +58,6 @@ namespace _2411863_Buoi4_Desktop
             return sv;
         }
 
-        // Hiển thị sinh viên lên controls
         private void DisplaySinhVien(ClassSinhVien sv)
         {
             if (sv == null) return;
@@ -80,7 +77,6 @@ namespace _2411863_Buoi4_Desktop
                     sv.MonHocDangKy.Contains(clbMonHoc.Items[i].ToString()));
         }
 
-        // Tải danh sách lên ListView
         private void LoadListView()
         {
             lvSinhVien.Items.Clear();
@@ -98,7 +94,6 @@ namespace _2411863_Buoi4_Desktop
             }
         }
 
-        // ===== NÚT THÊM MỚI =====
         private void btnThemMoi_Click(object sender, EventArgs e)
         {
             ClassSinhVien sv = GetSinhVienFromControls();
@@ -121,7 +116,6 @@ namespace _2411863_Buoi4_Desktop
             MessageBox.Show("Thêm sinh viên thành công!");
         }
 
-        // ===== NÚT CẬP NHẬT =====
         private void btnCapNhat_Click(object sender, EventArgs e)
         {
             if (lvSinhVien.SelectedItems.Count == 0)
@@ -141,7 +135,6 @@ namespace _2411863_Buoi4_Desktop
                 MessageBox.Show("Không tìm thấy sinh viên để cập nhật!");
         }
 
-        // ===== NÚT TÌM KIẾM =====
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
             string mssv = txtMSSV.Text.Trim();
@@ -158,13 +151,11 @@ namespace _2411863_Buoi4_Desktop
                 DisplaySinhVien(sv);
         }
 
-        // ===== NÚT THOÁT =====
         private void btnThoat_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        // ===== CHỌN DÒNG TRÊN LISTVIEW =====
         private void lvSinhVien_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (lvSinhVien.SelectedItems.Count == 0) return;
@@ -172,7 +163,6 @@ namespace _2411863_Buoi4_Desktop
             ClassSinhVien sv = qlsv.TimTheoMSSV(mssv);
             if (sv != null) DisplaySinhVien(sv);
         }
-        // ==================== TXT ====================
         private void mnuDocTXT_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
@@ -211,7 +201,6 @@ namespace _2411863_Buoi4_Desktop
             }
         }
 
-        // ==================== JSON ====================
         private void mnuDocJSON_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
@@ -250,7 +239,6 @@ namespace _2411863_Buoi4_Desktop
             }
         }
 
-        // ==================== XML ====================
         private void mnuDocXML_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
