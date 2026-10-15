@@ -17,7 +17,7 @@ namespace _2411863_Buoi4_Desktop
         public string CMND { get; set; }
         public string SoDT { get; set; }
         public string DiaChiLienLac { get; set; }
-        public bool GioiTinh { get; set; }   // true: Nam, false: Nữ
+        public bool GioiTinh { get; set; }   
         public List<string> MonHocDangKy { get; set; }
 
 
